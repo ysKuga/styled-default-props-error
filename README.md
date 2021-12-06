@@ -8,7 +8,7 @@
 
 これはコード上での回避が `@ts-ignore` 以外にも可能ではある。
 
-`src\App.tsx` にて以下のように記述しているが、\
+`src/App.tsx` にて以下のように記述しているが、\
 `ThemedBaseStyledInterface` 配下での `circularly references itself` を回避するため\
 いったん `StyledComponent` から `React.FC` への変換を行っている。
 
