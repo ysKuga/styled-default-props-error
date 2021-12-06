@@ -38,7 +38,7 @@ const ReStyledTest = styled<
 `;
 ```
 
-リポジトリ作成時点で以下のバージョンにて問題が発生が確認されているため\
+リポジトリ作成時点で以下のバージョンにて問題の解決が確認されているため\
 結論としては `styled-components`, `@types/styled-components` の `latest` へのバージョンアップをすべきである。
 
 ```json
